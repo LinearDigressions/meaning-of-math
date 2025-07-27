@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Meaning of Math
+description: Tackling difficult math concepts through intuitive explanations.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+math: mathjax
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+url: https://www.meaningofmath.com
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Website Repository: https://github.com/LinearDigressions/meaning-of-math
